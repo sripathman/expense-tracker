@@ -71,6 +71,8 @@ button{
   background-color: blanchedalmond;
   padding: 10px;
   color: blue;
+  font-size: 18px;
+  font-weight: bold;
 }
 input{
   padding: 10px;
