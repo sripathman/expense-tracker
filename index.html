@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1 class="heading">Expense Tracker</h1>
+        <h2 class="balance">Balance: <span id="balance">₹ 0.00</span></h2>
+        <form id="form">
+          <label for="desc">Description:</label><br>
+          <input type="text" id="desc" name="desc" placeholder="Enter Description"><br>
+          <label for="amount">Amount:</label><br>
+          <input type="number" id="amount" name="amount" placeholder="Enter Amount(outgoing with - sign) "><br>
+          <button type="submit">Add Transaction</button>
+        </form>
+        <ul id="trans"></ul>
+        <h2 class="income">Income: <span id="inc-amt">₹ 0.00</span></h2>
+        <h2 class="expense">Expense: <span id="exp-amt">₹ 0.00</span></h2>
+      </div>
+      <script src="script.js"></script>
+</body>
+
+</html>

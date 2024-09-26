@@ -1,0 +1,83 @@
+body{
+  background: linear-gradient(180deg, skyblue, gray);
+}
+#app {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  #balance, #inc-amt, #exp-amt {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  #form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  #form label {
+    margin-bottom: 5px;
+  }
+  
+  #trans {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #trans li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .exp {
+    background-color: #f0ad4e;
+    color: white;
+  }
+  
+  .inc {
+    background-color: #90EE90;
+    color: black;
+  }
+  
+  .btn-del {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: red;
+  }
+ 
+.income{
+  background-color:rgb(10, 254, 10);
+  padding: 10px;
+ 
+}
+.expense{
+  background-color: red;
+  padding: 10px;
+ 
+}
+.balance{
+  background-color: #90EE90;
+  padding: 10px;
+  
+}
+.heading{
+  text-align: center;
+}
+button{
+  background-color: blanchedalmond;
+  padding: 10px;
+  color: blue;
+}
+input{
+  padding: 10px;
+  color: blue;
+  font-weight: bold;
+}
+label{
+  color: blue;
+  font-weight: bold;
+}
